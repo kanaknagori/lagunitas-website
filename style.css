@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #E3C770;
+}
+
+#main{
+    position: relative;
+    width: 100vw;
+  
+   
+}
+#bottle{
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#first{
+    height: 100vh;
+    width: 100vw;
+   
+    padding: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: px; */
+}
+ #border{
+   position: absolute;
+   width: 3px;
+   height: 100%;
+   left: 50px;
+   background-color: black;
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+}
+#logo{
+    position: absolute;
+    height: 30px;
+    top: 20%;
+    top: 65px;
+    left: 75px;
+}
+.text1 img{
+    position: absolute;
+    height: 20%;
+    left: 35%;
+    top: 20%;
+   
+
+}
+.text1 h1{
+    font-size: 120px;
+    color:rgb(200,16,46);
+    font-weight: bold;
+    font-family: "Druk Cond Super Trial";
+}
+#first button{
+    padding: 10px 20px;
+    background-color: rgb(200,16,46);
+    font-size: 20px;
+    color: #fff;
+    border-color: rgb(200,16,46);
+    position: absolute;
+    top: 65px;
+    right: 75px;
+
+}
+#second{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+#second .text2{
+    position: absolute;
+    left: 80px;
+    width: 600px;
+}
+#second h1{
+    font-size: 5vw;
+}
+#second .text2 p{
+    font-size: 19px;
+    margin-top: 20px;
+ 
+}
+#second button{
+    padding: 10px 20px;
+    background-color: black;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#second #right2{
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    position: absolute;
+    left: 1050px;
+}
+#right2 .line{
+    width: 95%;
+    height: 2px;
+    background-color: black;
+}
+#right2 #r2text{
+    padding: 15px;
+    margin-top: 30px;
+}
+#r2text .r2innertext{
+    display: flex;
+    justify-content: space-between;
+}
+#r2text .r2innertext p{
+    font-size: 15px;
+    margin-left: 30px;
+}
+#r2text .r2innertext h2{
+    margin-top: 15px;
+}
+#third{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#third h1{
+    position: absolute;
+    left: 200px;
+    font-size: 10vw;
+    color:rgb(200,16,46) ;
+}
+#third #text3{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 1050px;
+    top: 250px;
+}
+#third #text3 h2{
+    
+    
+    font-size: 27px;
+   
+    color: black;
+}
+#third #text3 p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#third #left3{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+#third #left3 img{
+    height: 250px;
+
+}
+#third #left3 h2{
+    font-family: cursive;
+    font-size: 20px;
+
+}
+#fourth{
+    height: 100Vh;
+    width: 100%;
+    position: relative;
+}
+#fourth .splat1{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url("https://lagunitas.com/wp-content/uploads/2021/08/splat-red.png");
+
+}
+/* .splat1 img{
+    position: relative;
+    height: 400px;
+} */
+.splattext{
+    line-height: 1.1;
+    text-align: center;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 60%; 
+    transform: translate(-50%,-50%);
+    
+}
+#fourth .splattext h2{
+    letter-spacing: .04em;
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 5px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 9px;
+}
+#fourth .splattext p{
+    font-size: 15px;
+    position: relative;
+}
+
+#fourth .splat2{
+    height: 400px;
+    width: 400px;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    background-image: url("https://lagunitas.com/wp-content/uploads/2021/08/splat-red.png");
+  }
+ 
+#fourth .splat3{
+    height: 500px;
+    width: 500px;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    left: 900px;
+    top:80px;
+    background-image: url("https://lagunitas.com/wp-content/themes/lagunitas/assets/images/splat-black.png");
+}
+.splat3 .splattext{
+  top: 40%;
+}
+.beerglass{
+  position: absolute;
+  top: 400px;
+}
+.beerglass img{
+    height: 450px;
+    rotate: -25deg;
+}
+#fifth{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 500px;
+    
+
+}
+#text5{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#text5 h1{
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+#text5 h3{
+    font-family: cursive;
+}
+
+#fifth #images5{
+    height:50vh ;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top:70%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+
+}
+#images5 img{
+    height: 400px;
+}
+#sixth{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#sixth img{
+    height: 400px;
+    padding-left: 20px;
+    
+}
+#sixth #text6{
+    height: 50%;
+    width: 400px;
+}
+#text6 h1{
+    line-height: 45px;
+    font-size: 3.5vw;
+    color:rgb(200,16,46) ;
+    font-weight: bold;
+}
+#text6 h4{
+  font-family: cursive;
+}
+#text6 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#text6 button{
+    padding: 10px 20px;
+    background-color: black;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
